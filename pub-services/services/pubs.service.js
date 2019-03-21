@@ -1,6 +1,6 @@
-var pubs = require('./pubs.json');
+var pubs = require('../mocks/pubs.json');
 
-function listPub(pubs){
+function listPub(){
     return pubs;
 }
 
