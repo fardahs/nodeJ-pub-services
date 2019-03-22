@@ -1,4 +1,4 @@
-var pubs = require('pub-services');
+const pubs = require('pub-services');
 
 
 module.exports = {
