@@ -14,9 +14,7 @@
   },
   "preferGlobal": true,
   "dependencies": {
+    "commander": "^2.19.0",
     "pub-services": "../pub-services"
-  },
-  "devDependencies": {
-    "commander": "^2.19.0"
   }
 }

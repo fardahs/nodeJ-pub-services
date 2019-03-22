@@ -1,3 +1,10 @@
-var pubService = require('pub-services');
+var pubs = require('pub-services');
 
-pubService.services.listPub;
+function getListPub(){
+    liste = pubs.services.pubService.listPub();
+    console.log(liste);
+}
+
+module.exports = {
+    getListPub:getListPub
+}
