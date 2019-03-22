@@ -1,4 +1,4 @@
-var pubs = require('../mocks/pubs.json');
+const pubs = require('../mocks/pubs.json');
 
 class Pubs{
     constructor(name, owner, openHours, beers, openDays){
